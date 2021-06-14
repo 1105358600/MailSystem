@@ -1,15 +1,15 @@
 # 基于SSM框架的网上购物送货系统
 系统开发平台：Tomcat8.0 + JDK1.8 + Windows 7
-
 开发语言：JavaEE
-
-框架：SSM—Spring+SpringMVC+MyBatis
-
 JAR包管理：Maven3.6.1
+前端：jQuery   html5/css3
+后台
+核心架构：SpringBoot
+Web框架：SpringMVC
+持久层框架：Mybatis
+模板引擎：Thymeleaf
+数据库：Mysql
 
-前端：JQUERY
-
-数据库：MySql5.7
 
 # 1.系统参与角色：管理者、购物者、送货员。
 
