@@ -1,10 +1,16 @@
 # 基于SSM框架的网上购物送货系统
 系统开发平台：Tomcat8.0 + JDK1.8 + Windows 7
+
 开发语言：JavaEE
+
 框架：SSM—Spring+SpringMVC+MyBatis
+
 JAR包管理：Maven3.6.1
+
 前端：JQUERY
+
 数据库：MySql5.7
+
 # 1.系统参与角色：管理者、购物者、送货员。
 
  1. 管理者：负责管理商品，提供商品信息，处理订单事务，系统的日常维护，控制超市状态。   
