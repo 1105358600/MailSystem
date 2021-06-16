@@ -5,7 +5,7 @@
 
 JAR包管理：Maven3.6.1
 
-前端：jQuery   html5/css3
+前端：jQuery html5/css3
 
 后台
 
@@ -18,9 +18,6 @@ Web框架：SpringMVC
 模板引擎：Thymeleaf
 
 数据库：Mysql
-
-
-
 # 1.系统参与角色：管理者、购物者、送货员。
 
  1. 管理者：负责管理商品，提供商品信息，处理订单事务，系统的日常维护，控制超市状态。   
@@ -87,9 +84,6 @@ Web框架：SpringMVC
 
 
 # 5.难点实现
-
-## 1. 购物车功能实现
-
 ## 2.支付宝支付实现
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608184909336.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608184919841.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
@@ -97,20 +91,18 @@ Web框架：SpringMVC
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608184959606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021060818500414.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185009984.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-
-## 3.商品描述
-![其中，就文本而言，其选择就有像word文档那样多种多样，有字体，段落，大小颜色等等样式。而且，其文件形式有多种选择，可以是文字，图片，还可以是一段音乐，视频等等。支持多种语言，例如C++，JAVA，Python等等。而且具有很多小功能，像添加表情，百度地图之类的功能都具备。
-](https://img-blog.csdnimg.cn/20210608185039271.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-
-## 4.分列和页底翻页
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185104791.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185114723.png)
-
-## 5.页底重复栏
-![该栏在首页已经首页里的每个页面的页底都会重复出现，如果在每一个页面的代码里都加入重复的代码，就会很繁琐，因为首页所包含的页面很多。
-](https://img-blog.csdnimg.cn/20210608185137905.png)
-
-## 6.图片轮转
+## 2.服务器的搭建
+服务器搭建教程：
+[https://blog.csdn.net/qq_35206244/article/details/83184173](https://blog.csdn.net/qq_35206244/article/details/83184173)
+[https://blog.csdn.net/Aidiying/article/details/84442638](https://blog.csdn.net/Aidiying/article/details/84442638)
+为了实现用户的远程操作，我们把项目部署到了云服务器上，云服务器可以节省经济成本，又节约了大量时间。我们项目用的是腾讯云服务器。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185540462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185544291.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185559940.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
+## 3.销量图表
+为了方便管理员进货，我们利用图表来帮助管理员了解商城销售商品的数量以及占比，利用ECHARTS来将后台的销量数据可视化，以便于直观显示销量占比
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185345574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
+## 4.图片轮转
 
 ![1.在jsp中创建容器用来存放图片
 2.在css中设置相关的样式
@@ -121,43 +113,17 @@ Web框架：SpringMVC
 4.定时调用轮转方法
 ](https://img-blog.csdnimg.cn/20210608185210643.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
-## 7.二级导航
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185250793.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
-
-
-## 8.降序排列
+## 5.按序排列
 ![定义一个对象数组
 定义一个比较器--降序排列
 对象数组 按照某个属性 降序排列
 ](https://img-blog.csdnimg.cn/20210608185314220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
 
-## 9.销量图表
-为了方便管理员进货，我们利用图表来帮助管理员了解商城销售商品的数量以及占比，利用ECHARTS来将后台的销量数据可视化，以便于直观显示销量占比
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185345574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
 
-
-## 10.用户登录状态
-为了使用户登录状态得以保存，并在使用系统时根据不同用户来获取不同的信息，我们利用http协议使当前的用户名信息存入变量中，以此判断用户的登录状态
-
-
-
-## 11.订单号的生成
-在购物时，会根据购物时间来生成订单号，为了避免多人同时购买商品是订单号重复使系统出现问题，我们利用ordernum来生成不重复的订单号。
+## 6.订单号的设置
+在购物时，会根据购物时间来生成订单号，为了避免多人同时购买商品时订单号重复使系统出现问题，我们利用ordernum++来生成不重复的订单号。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185451284.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
-
-## 12.服务器的搭建
-服务器搭建教程：
-[https://blog.csdn.net/qq_35206244/article/details/83184173](https://blog.csdn.net/qq_35206244/article/details/83184173)
-[https://blog.csdn.net/Aidiying/article/details/84442638](https://blog.csdn.net/Aidiying/article/details/84442638)
-为了实现用户的远程操作，我们把项目部署到了云服务器上，云服务器可以节省经济成本，又节约了大量时间。我们项目用的是腾讯云服务器。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185540462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185544291.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185559940.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-
-# 6.源码地址：
-
-[https://github.com/1105358600/MailSystem](https://github.com/1105358600/MailSystem)
