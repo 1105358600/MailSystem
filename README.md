@@ -99,11 +99,15 @@ Web框架：SpringMVC
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185540462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185544291.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185559940.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
+
 ## 3.销量图表
 为了方便管理员进货，我们利用图表来帮助管理员了解商城销售商品的数量以及占比，利用ECharts来将后台的销量数据可视化，以便于直观显示销量占比
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185345574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
-## 4.图片轮转
+## 4.订单号设置随机数保证一定的并发性
+在购物时，会根据购物时间来生成订单号，为了避免多人同时购买商品时订单号重复使系统出现问题，我们利用ordernum++来生成不重复的订单号，保证一定程度的并发性。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185451284.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
+## 5.定时调用轮转实现图片轮换
 ![1.在jsp中创建容器用来存放图片
 2.在css中设置相关的样式
 3.js中的相关代码
@@ -114,16 +118,11 @@ Web框架：SpringMVC
 ](https://img-blog.csdnimg.cn/20210608185210643.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
 
-## 5.按序排列
+## 6.按序排列
 ![定义一个对象数组
 定义一个比较器--降序排列
 对象数组 按照某个属性 降序排列
 ](https://img-blog.csdnimg.cn/20210608185314220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
 
-
-
-## 6.订单号的设置
-在购物时，会根据购物时间来生成订单号，为了避免多人同时购买商品时订单号重复使系统出现问题，我们利用ordernum++来生成不重复的订单号。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185451284.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 
