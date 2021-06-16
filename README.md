@@ -100,7 +100,7 @@ Web框架：SpringMVC
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185544291.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185559940.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ## 3.销量图表
-为了方便管理员进货，我们利用图表来帮助管理员了解商城销售商品的数量以及占比，利用ECHARTS来将后台的销量数据可视化，以便于直观显示销量占比
+为了方便管理员进货，我们利用图表来帮助管理员了解商城销售商品的数量以及占比，利用ECharts来将后台的销量数据可视化，以便于直观显示销量占比
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210608185345574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1ODA4NzAw,size_16,color_FFFFFF,t_70)
 ## 4.图片轮转
 
